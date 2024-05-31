@@ -34,7 +34,7 @@ export function Lorem({
     chars,
     tag,
 }: RequireExactlyOne<ILoremProps, "words" | "chars">) {
-    const len = words || chars;
+    const len = chars || words;
     if (!len) {
         console.error(
             "You must provide a `words` or `chars` prop to the Lorem component."
