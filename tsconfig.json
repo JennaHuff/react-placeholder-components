@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es2019",
+        "declaration": true,
+        "outDir": "./dist",
+        "jsx": "react",
+        "moduleResolution": "node"
+    },
+    "include": ["src/**/*"]
+}
