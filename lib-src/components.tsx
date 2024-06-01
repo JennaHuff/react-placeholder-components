@@ -1,4 +1,5 @@
-import * as React from "react";
+import React, { JSX } from "react";
+
 import { lorem, address, names } from "./data";
 import { ElementType, Fragment } from "react";
 
@@ -84,6 +85,7 @@ export function Address({
  *  <Name tag="div" /> // <div>Arthur Louis</div>
  *  <Name country="US" tag="p" /> // <p>John Doe</p>
  */
+
 export function Name({
     country,
     tag,

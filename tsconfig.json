@@ -3,9 +3,10 @@
         "module": "esnext",
         "target": "es2019",
         "declaration": true,
-        "outDir": "./dist",
+        "declarationDir": "./src/types",
+        "outDir": "./src",
         "jsx": "react",
         "moduleResolution": "node"
     },
-    "include": ["src/**/*"]
+    "include": ["lib-src/**/*"]
 }

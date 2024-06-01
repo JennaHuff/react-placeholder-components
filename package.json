@@ -2,10 +2,10 @@
     "name": "react-placeholder-components",
     "version": "1.0.3",
     "description": "",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
+    "main": "./src/index.js",
+    "types": "./src/types/index.d.ts",
     "files": [
-        "./dist"
+        "./src"
     ],
     "author": "Anton J",
     "license": "ISC",
